@@ -28,14 +28,15 @@
 <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-<?php include("../public/private/navbar.html");?>
+<?php include("./private/navbar.html");?>
 <section id="home-section" class="hero js-fullheight">
+<div id="particles-js">
     <div class="home-slider owl-carousel js-fullheight">
         <div class="slider-item js-fullheight">
             <div class="overlay"></div>
             <div class="container-fluid px-0">
                 <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-end justify-content-end" data-scrollax-parent="true">
-                    <div class="one-third order-md-last js-fullheight img-base" style="background-image:url(images/osmoze-bg_1.png);">
+                    <div class="one-third order-md-last js-fullheight img-base" style="background-image:url(images/osmoze-bg_1.png)">
                         <div class="overlay"></div>
                     </div>
                 <div class="one-forth js-fullheight d-flex align-items-start align-items-md-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -83,7 +84,7 @@
         </div>
     </div>
 </div>
-
+</div>
 </section>
     <!-- Event Counter Begin -->
     <section class="event-counter">
@@ -874,6 +875,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="js/wow.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="js/google-map.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
 <script src="js/main.js"></script>
 <script src="js/main1.js"></script>
 <!-- Owl Carousel  -->
